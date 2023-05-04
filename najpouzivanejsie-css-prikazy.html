@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Najpouživanejšie css príkazy</title>
+</head>
+<!-- Najpouživanejšie css príkazy :
+Úloha na ukážku základných CSS a HTML príkazov
+CSS (Cascading Style Sheets) je jazyk, ktorý sa používa na formátovanie webových stránok. Tu je zoznam najpoužívanejších CSS príkazov:
+
+color - Nastavuje farbu textu.
+font-family - Nastavuje typ písma.
+font-size - Nastavuje veľkosť písma.
+background-color - Nastavuje farbu pozadia.
+margin - Nastavuje okraje (horný, dolný, ľavý, pravý) elementu.
+padding - Nastavuje vnútorný priestor (horný, dolný, ľavý, pravý) elementu.
+border - Nastavuje hrúbku, typ a farbu ohraničenia elementu.
+text-align - Nastavuje zarovnanie textu.
+float - Nastavuje, na ktorú stranu má byť element zarovnaný (napr. vľavo alebo vpravo).
+display - Nastavuje spôsob, ako sa element zobrazí (napr. ako blokový alebo riadkový element).
+
+-->
+<body>
+    <p style="color:red;">Toto je text červenou farbou.</p>
+    <p style="font-family: 'Arial Black';color:blue;">Toto je text vypísaný fontom Arial Black a je modrou farbou.</p>
+    <p style="font-size: 20px;">Text, ktorý má veľkosť písma 20 pixelov (px, t.j. obrazových bodov)</p>
+    <p style="background-color: orange;">Text, ktorý má oranžové pozadie</p>
+    <p style="margin-top: -20px;">Nejaky text</p>
+
+
+    <div style="background-color: red; width:400px; height: 300px;">
+        <!-- div služi nato aby sme doň vložili rôzny obash ,texty ,obrazky atď -->
+         <p>Prvý kontajner (div)</p>
+        <img src="slovensko.gif.png";  style="width:50%; height:50%; margin-left:40px;">
+    </div>
+
+    <div style="background-color: green; width:400px; height: 300px; margin-top:0px;">
+        <p style="padding:40px;">Druhý kontajner (div)</p>
+    </div>
+
+    <div style="background-color: blue;" >
+        <p style="padding: 40px 50px 60px 70px;">Tretí kontajner (div)</p>
+    </div>
+    <p style="border: 1px solid black;">Text oramovaný</p>
+    <p style="border-width: 1px; border-style: solid; border-color: black;">Text oramovaný použitim CSS</p>
+
+    <div style="text-align: center; background-color: orange; margin-top: -15px;">
+        <!-- Vsetko co je v div bude mu prisposobene stylu ktory sme mu nastavili -->
+       <p>Text vycentrovaný</p>
+       <img src="slovensko.gif.png" alt="som SLOVENSKO"  style="width:20%; height:20%;">
+       </div>
+
+    <div>
+        <div style="background-color: red; width: 250px; height: 250px; float: right;">
+            <p>Prvý kontajner (div)</p>
+        </div>
+
+        <div style="background-color: green; width: 250px; height: 250px; float: right;">
+            <p>Druhý kontajner (div)</p>
+        </div>
+
+        <div style="background-color: blue; width: 250px; height: 250px; float: right;">
+            <p>Tretí kontajner (div)</p>
+        </div>
+    </div>
+
+    <br style="clear: both;">
+    <!-- Pevna medzera registrovana entitou HTML &nbsp; -->
+    <p>Toto je 5 medzier &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; za ktorými pokračuje tento text.</p>
+
+   </body>
+   </html>

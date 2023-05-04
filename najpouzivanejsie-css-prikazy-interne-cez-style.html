@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <meta charset="UTF-8">
+        <title>Najpouživanejšie css príkazy</title>
+        <style>
+
+            .cervena {
+                color: red;
+            }
+            .pismo {
+                font-family: "Arial Black";
+            }
+            .velkostpisma {
+                font-size: 20px;
+            }
+            .pozadie {
+                background-color: orange;
+            }
+            .okraj {
+                margin-top: -20px;
+            }
+            .prvydiv {
+                background-color: yellow;
+                width:20%;
+                height: 300px;
+            }
+            .druhydiv {
+                background-color: green;
+                width:400px;
+                height: 300px;
+                margin-top:0px;
+            }
+            .tretidiv {
+                background-color: blue;
+             }
+            #oramovanytext {
+                border: 1px solid black;
+
+            }
+            #oramovanytextpodrobny {
+                border-width: 1px;
+                border-style: solid;
+                border-color: black;
+            }
+
+
+
+
+        </style>
+
+
+    </head>
+<!-- Najpouživanejšie css príkazy :
+Úloha na ukážku základných CSS a HTML príkazov
+CSS (Cascading Style Sheets) je jazyk, ktorý sa používa na formátovanie webových stránok. Tu je zoznam najpoužívanejších CSS príkazov:
+
+color - Nastavuje farbu textu.
+font-family - Nastavuje typ písma.
+font-size - Nastavuje veľkosť písma.
+background-color - Nastavuje farbu pozadia.
+margin - Nastavuje okraje (horný, dolný, ľavý, pravý) elementu.
+padding - Nastavuje vnútorný priestor (horný, dolný, ľavý, pravý) elementu.
+border - Nastavuje hrúbku, typ a farbu ohraničenia elementu.
+text-align - Nastavuje zarovnanie textu.
+float - Nastavuje, na ktorú stranu má byť element zarovnaný (napr. vľavo alebo vpravo).
+display - Nastavuje spôsob, ako sa element zobrazí (napr. ako blokový alebo riadkový element).
+
+-->
+    <body>
+        <p class="cervena">Toto je text červenou farbou.</p>
+        <p class="pismo">Toto je text vypísaný fontom Arial Black a je modrou farbou.</p>
+        <p class="velkostpisma">Text, ktorý má veľkosť písma 20 pixelov (px, t.j. obrazových bodov)</p>
+        <p class="pozadie">Text, ktorý má oranžové pozadie</p>
+        <p class="okraj">Nejaky text</p>
+
+
+        <div class="prvydiv">
+            <!-- div služi nato aby sme doň vložili rôzny obash ,texty ,obrazky atď -->
+             <p>Prvý kontajner (div)</p>
+            <img src="slovensko.gif.png";  style="width:50%; height:50%; margin-left:40px;">
+        </div>
+
+        <div class="druhydiv">
+            <p style="padding:40px;">Druhý kontajner (div)</p>
+        </div>
+
+        <div class="tretidiv" >
+            <p style="padding: 40px 50px 60px 70px;">Tretí kontajner (div)</p>
+        </div>
+        <p id="oramovanytext">Text oramovaný</p>
+        <p id="oramovanytextpodrobny">Text oramovaný použitim CSS</p>
+
+        <div style="text-align: center; background-color: orange; margin-top: -15px;">
+            <!-- Vsetko co je v div bude mu prisposobene stylu ktory sme mu nastavili -->
+           <p>Text vycentrovaný</p>
+           <img src="slovensko.gif.png" alt="som SLOVENSKO"  style="width:20%; height:20%;">
+           </div>
+
+        <div>
+            <div style="background-color: red; width: 250px; height: 250px; float: right;">
+                <p>Prvý kontajner (div)</p>
+            </div>
+
+            <div style="background-color: green; width: 250px; height: 250px; float: right;">
+                <p>Druhý kontajner (div)</p>
+            </div>
+
+            <div style="background-color: blue; width: 250px; height: 250px; float: right;">
+                <p>Tretí kontajner (div)</p>
+            </div>
+        </div>
+
+        <br style="clear: both;">
+        <!-- Pevna medzera registrovana entitou HTML &nbsp; -->
+        <p>Toto je 5 medzier &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; za ktorými pokračuje tento text.</p>
+
+   </body>
+</html>
