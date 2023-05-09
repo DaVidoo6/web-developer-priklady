@@ -1,0 +1,120 @@
+body {
+  max-width: 1205px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+
+button {
+  background-color: white;
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+  border-style: solid;
+}
+
+header {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+header p {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+header span {
+  background-color: black;
+  color: white;
+}
+
+.content-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+article {
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+article img,
+.sidebar img {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  width: 33.3333%;
+  height: 100%;
+}
+
+.main-content {
+  text-align: left;
+  width: 66.666%;
+  margin: 20px;
+  height: 45%;
+}
+
+.sidebar-card {
+  background-color: #fff;
+  width: 100%;
+  margin: 20px;
+  height: 25%;
+}
+
+.sidebar-card h2 {
+  padding-left: 16px;
+}
+
+.text {
+  padding: 15px;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: block;
+}
+
+ul li {
+  display: list-item;
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+ul li:hover {
+  background-color: #cccccc;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+.darken-on-hover {
+  transition: filter 0.1s ease-in-out; /* Animácia prehltenia 0.1s */
+}
+
+.darken-on-hover:hover {
+  filter: brightness(50%); /* 50% prehltenie */
+}
+
+.shadow {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  background-color: darkgrey;
+  text-align: center;
+  font-size: 30px;
+}
